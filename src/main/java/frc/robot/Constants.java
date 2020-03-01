@@ -58,7 +58,7 @@ public class Constants {
 
 
   // ***
-  public static final int COLOR_WHEEL_SRX_MOTOR = 6;
+  public static final int COLOR_WHEEL_SRX_MOTOR = 14;
 
   //*** 
   public static final int WINCH_SRX_MOTOR = 10;

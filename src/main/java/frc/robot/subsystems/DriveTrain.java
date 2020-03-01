@@ -92,14 +92,14 @@ public DriveTrain(){
     
     // FOR TANK DRIVE WITH JOYSTICKS
     public void tankDriveLeft(Joystick joystick) {
-      // if(Math.abs(joystick.getRawAxis(Constants.DRIVER_JOYSTICK_LEFT_AXIS)) > 0.1) {
-      leftFrontDriveMotor.set(joystick.getRawAxis(Constants.DRIVER_JOYSTICK_LEFT_AXIS));
+     
+      leftFrontDriveMotor.set(joystick.getRawAxis(Constants.DRIVER_JOYSTICK_LEFT_AXIS)); // 
       leftBackDriveMotor.set(joystick.getRawAxis(Constants.DRIVER_JOYSTICK_LEFT_AXIS));
     }
   
 
     public void tankDriveRight(Joystick joystick) {
-      // if(Math.abs(joystick.getRawAxis(Constants.DRIVER_JOYSTICK_RIGHT_AXIS)) > 0.1) {
+
         rightFrontDriveMotor.set(-joystick.getRawAxis(Constants.DRIVER_JOYSTICK_RIGHT_AXIS));
         rightBackDriveMotor.set(-joystick.getRawAxis(Constants.DRIVER_JOYSTICK_RIGHT_AXIS));
       
